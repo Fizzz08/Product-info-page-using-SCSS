@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shoe Store - Product Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="thumbnail">
+            <a href="#" data-toggle="modal" data-target="#myModal">
+              <img src="shoe.jpg" alt="shoe" id="main-img">
+            </a>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="thumbnail">
+                <a href="shoe1.jpg" onclick="changeImage('shoe1.jpg')">
+                  <img src="shoe1.jpg" alt="shoe 1">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="thumbnail">
+                <a href="shoe2.jpg" onclick="changeImage('shoe2.jpg')">
+                  <img src="shoe2.jpg" alt="shoe 2">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="thumbnail">
+                <a href="shoe3.jpg" onclick="changeImage('shoe3.jpg')">
+                  <img src="shoe3.jpg" alt="shoe 3">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="thumbnail">
+                <a href="shoe4.jpg" onclick="changeImage('shoe4.jpg')">
+                  <img src="shoe4.jpg" alt="shoe 4">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2>Nike Air Max 270</h2>
+          <p>Price: $150</p>
+          <p>Size:</p>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default">6</button>
+            <button type="button" class="btn btn-default">7</button>
+            <button type="button" class="btn btn-default">8</button>
+            <button type="button" class="btn btn-default">9</button>
+          </div>
+          <br>
+          <br>
+          <button type="button" class="btn btn-primary">Add to Cart</button>
+          <br>
+          <br>
+          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Buy Now</button>
+          <br>
+          <br>
+          <p>Description:</p>
+          <p>The Nike Air Max 270 delivers visible air under every step. Updated for modern comfort, it nods to the original, 1991 Air Max 180 with its exaggerated tongue top and heritage tongue logo.
+            Put a bounce in your step with the Nike Air Max 270. Named for the extra-large Max Air unit that wraps around its heel, these sneakers combine soft cushioning with the sock-like fit of a stretchy inner sleeve. Add a lightweight, airy upper and sporty low-cut collar and you've got the perfect kicks for every day.</p>
+          <br>
+          <h5><b>Shown: Off-White<br>
+            Style: FJ0680-222</b></h5>
+         <br>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Questions</h3>
+              </div>
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                    <label for="question">Question:</label>
+                    <textarea class="form-control" rows="3" id="question"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
